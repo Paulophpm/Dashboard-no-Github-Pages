@@ -1,9 +1,6 @@
-# GitHub + Power BI (Atualizado)
+# Hospedando seu Dashboard do Power BI no GitHub Pages
 
-## O que é Github?
-GitHub é uma ferramenta essencial para quem está desenvolvendo uma solução digital e deseja trabalhar de forma eficiente, sendo possível realizar o controle de versão, gerenciamento de problemas, integração contínua e colaboração em equipe.
-
-Assim, você poderá utilizar esse repositório como guia e cloná-lo para utiliza-lo em seus projetos da melhor maneira possível.
+Esse repositório tem como objetivo ser um guia para quem deseja publicar o seu dashboard de maneira simples e confiável utilizando o githubpages para criar o seu portfólio de análise de dados. Assim, você poderá fazerum fork desse repositório para utiliza-lo em seus projetos da melhor maneira possível.
 
 ## Requisitos:
 - Conta Gratuita da Microsoft;
@@ -13,7 +10,9 @@ Assim, você poderá utilizar esse repositório como guia e cloná-lo para utili
 ## Usando o GitHub para hospedar seu Dashboard:
 
 - #### Publique seu Dashboard no Power BI Serviço:
-  Primeiro, você precisa exportar seu dashboard para o Power BI serviço. Para fazer isso, abra seu dashboard no Power BI Desktop e clique em "Publicar", escolha o Workspace que deseja publicar o dashboard, clique no link gerado para abrir o ambiente do Power BI Online.
+  Primeiro, você precisa exportar seu dashboard que está no Power BI Desktop para o ambinte Power BI serviço. Faça o Login com a sua conta da microsoft Para fazer isso, abra seu arquivo que deseja trabalhar no Power BI Desktop e clique em "Publicar".
+  escolha o Workspace que deseja publicar o dashboard, clique no link gerado para abrir o ambiente do Power BI Online.
+  OBS: É importante que a fonte de dados do seu dashboard esteja devidamente configurado, para
 
 - ### Exporte o seu Dashboard em HTML:
  Dentro do Power BI Serviço, abre o seu relatório e clique em "Arquivo" e selecione "Inserir Relatório", escolha a opção "Site ou Portal" e copie o link do HTML forneceido.
