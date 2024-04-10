@@ -1,4 +1,4 @@
-# GitHub + Power BI
+# GitHub + Power BI (Atualizado)
 
 ## O que é Github?
 GitHub é uma ferramenta essencial para quem está desenvolvendo uma solução digital e deseja trabalhar de forma eficiente, sendo possível realizar o controle de versão, gerenciamento de problemas, integração contínua e colaboração em equipe.
@@ -6,12 +6,17 @@ GitHub é uma ferramenta essencial para quem está desenvolvendo uma solução d
 Assim, você poderá utilizar esse repositório como guia e cloná-lo para utiliza-lo em seus projetos da melhor maneira possível.
 
 ## Requisitos:
-
+- Conta Gratuita da Microsoft;
+- Aplicativo do Power BI Desktop;
+- Dashboard para ser publicado;
 
 ## Usando o GitHub para hospedar seu Dashboard:
 
-- #### Exporte o Dashboard do Power BI:
-  Primeiro, você precisa exportar seu dashboard do Power BI para um arquivo HTML. Para fazer isso, abra seu dashboard no Power BI Desktop ou na versão online, clique em "Arquivo" e selecione "Publicar na Web". Escolha as opções desejadas (como "Exibir os dados no relatório" e "Permitir interação com o usuário") e clique em "Publicar". Copie o link fornecido.
+- #### Publique seu Dashboard no Power BI Serviço:
+  Primeiro, você precisa exportar seu dashboard para o Power BI serviço. Para fazer isso, abra seu dashboard no Power BI Desktop e clique em "Publicar", escolha o Workspace que deseja publicar o dashboard, clique no link gerado para abrir o ambiente do Power BI Online.
+
+- ### Exporte o seu Dashboard em HTML:
+ Dentro do Power BI Serviço, abre o seu relatório e clique em "Arquivo" e selecione "Inserir Relatório", escolha a opção "Site ou Portal" e copie o link do HTML forneceido.
 
 - ### Crie um Novo Repositório no GitHub:
   Acesse o GitHub e crie um novo repositório. Você pode dar um nome significativo ao repositório, como "power-bi-dashboard", e incluir uma descrição adequada.
@@ -28,5 +33,10 @@ Assim, você poderá utilizar esse repositório como guia e cloná-lo para utili
 - ### Ative o GitHub Pages:
   Vá para as configurações do seu repositório e role para baixo até a seção "GitHub Pages". Escolha a opção "Branch: main" (ou a branch onde você fez o push do arquivo HTML) e clique em "Save". Isso ativará o GitHub Pages para o seu repositório.
 
-- Acesse seu Dashboard Publicado: Após ativar o GitHub Pages, você receberá um link onde seu dashboard está hospedado. Esse link será no formato https://seuusername.github.io/nomederepositorio. Você pode compartilhar esse link ou usá-lo em seu perfil do LinkedIn para mostrar seu dashboard ao público.
+- ### Acesse seu Dashboard Publicado:
+  Após ativar o GitHub Pages, você receberá um link onde seu dashboard está hospedado. Esse link será no formato https://seuusername.github.io/nomederepositorio. Você pode compartilhar esse link ou usá-lo em seu perfil do LinkedIn para mostrar seu dashboard ao público.
+
+- ## Redimensionando o seu Dashboard:
+  O link que você irá copiar do power irá vim com dois parâmetros, sendo width = "1140" e height="541.25", esses dois parâmetros corresponde a altura e largura da visualização da web, você pode alterar esse dois valores de maneira a ajustar de forma adequada para melhorar a visualização do seu Dashboard.
+
 
